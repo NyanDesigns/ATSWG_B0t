@@ -1,7 +1,7 @@
 {
   "name": "atswg_bot",
   "version": "1.0.0",
-  "description": "Twitch Moderation Bot",
+  "description": "Twitch Moderation Bot for channel",
   "main": "src",
   "scripts": {
     "start": "node .",
