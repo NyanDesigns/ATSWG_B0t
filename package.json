@@ -1,0 +1,38 @@
+{
+  "name": "xli_bot",
+  "version": "1.0.0",
+  "description": "Twitch Moderation Bot",
+  "main": "src",
+  "scripts": {
+    "start": "node .",
+    "devStart": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NyanDesigns/xLi_B0t"
+  },
+  "keywords": [
+    "Twitch_Bot",
+    "Twitch_Tournament",
+    "Node.js",
+    "Twitch.api",
+    "Google.api"
+  ],
+  "author": "Nyan-Designs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NyanDesigns/xLi_B0t/issues"
+  },
+  "homepage": "https://github.com/NyanDesigns/xLi_B0t#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "dotenv": "^16.0.2",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^105.0.0",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
